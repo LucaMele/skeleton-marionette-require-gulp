@@ -1,0 +1,33 @@
+{
+  "name": "skeleton-marionette-require-gulp",
+  "version": "1.0.0",
+  "description": "A skeleton setup with require marionette and backbone",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucaMele/skeleton-marionette-require-gulp.git"
+  },
+  "keywords": [
+    "marionette",
+    "backbone",
+    "require",
+    "skeleton",
+    "spa"
+  ],
+  "author": "info@lucamele.ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucaMele/skeleton-marionette-require-gulp/issues"
+  },
+  "homepage": "https://github.com/LucaMele/skeleton-marionette-require-gulp",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "requirejs": "~2.1.20",
+    "gulp-template-compile": "~1.1.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-clean": "~0.3.1"
+  }
+}

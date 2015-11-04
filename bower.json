@@ -1,0 +1,27 @@
+{
+  "name": "skeleton-marionette-require-gulp",
+  "description": "all browser dependencies",
+  "main": "init.js",
+  "authors": [
+    "Luca Mele"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/LucaMele/skeleton-marionette-require-gulp",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "requirejs": "~2.1.20",
+    "jquery": "~2.1.4",
+    "backbone.marionette": "marionette#~2.4.3",
+    "underscore": "~1.8.3"
+  }
+}
