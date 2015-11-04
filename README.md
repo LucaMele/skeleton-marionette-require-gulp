@@ -29,7 +29,11 @@ You can execute `gulp build` to have a minified and bundled version of the whole
 ##References and good to know:##
 
 http://marionettejs.com/
+
 http://backbonejs.org/
+
 http://requirejs.org/
+
 http://underscorejs.org/
+
 http://gulpjs.com/
