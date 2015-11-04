@@ -4,6 +4,7 @@ This is a skaleton for a SPA app with requireJs, BackboneJs, MarionetteJs and JS
 
 ##How to install:##
 
+_After have cloned the repo on your machine_
 
 First install all npm dependencies:
 
