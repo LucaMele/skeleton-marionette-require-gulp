@@ -4,7 +4,7 @@ This is a skaleton for a SPA app with requireJs, BackboneJs, MarionetteJs and JS
 
 ##How to install:##
 
-First all npm dependencies
+First install all npm dependencies:
 `npm install`
 
 If you don't have already bower as a global node_module:
