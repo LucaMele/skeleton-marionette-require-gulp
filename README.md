@@ -2,7 +2,7 @@
 This is a skaleton for a SPA app with requireJs, BackboneJs, MarionetteJs and JST Templates
 
 
-_How to install:_
+##How to install:##
 
 First all npm dependencies
 `npm install`
@@ -17,7 +17,7 @@ Start everything with:
 `gulp`
 
 
-_References and good to know:_
+##References and good to know:##
 
 http://marionettejs.com/
 http://backbonejs.org/
