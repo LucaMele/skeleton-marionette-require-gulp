@@ -23,10 +23,6 @@ require.config({
         },
         underscore: {
             exports: '_'
-        },
-        app: {
-            deps: ['backbone', 'underscore', 'jquery'],
-            exports: 'app'
         }
     },
     map : {
