@@ -46,7 +46,17 @@ define([
     // is a marionette item view: http://marionettejs.com/docs/v2.4.3/marionette.itemview.html
     Foo.FooView = Marionette.ItemView.extend({
         tagName: 'li',
-        template: 'foo/single-foo.html'
+        template: 'foo/single-foo.html',
+        templateHelpers: function () {
+            return {
+                displayName: function(){
+                    if (this.name === "foo_e"){
+                        return this.name + ' is the coolest!';
+                    }
+                    return this.name;
+                }
+            };
+        }
     });
 
     // is a marionette composite view: http://marionettejs.com/docs/v2.4.3/marionette.compositeview.html
