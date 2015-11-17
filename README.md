@@ -16,7 +16,7 @@ After bower is installed, install all npm dependencies:
 
 This will install all npm modules and bower dependecies
 
-Now you can see the preview of the application by starting the server. The url address is gonna be http://localhiost:3000 (configured in server.js):
+Now you can see the preview of the application by starting the server. The url address is gonna be http://localhost:3000 (configured in server.js):
 
 `node server.js`
 
