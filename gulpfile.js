@@ -1,20 +1,20 @@
 var gulp = require('gulp'),
     template = require('gulp-template-compile'),
     concat  = require('gulp-concat'),
-    clean = require('gulp-clean'),
+    rimraf = require('gulp-rimraf'),
     requirejsOptimize = require('gulp-requirejs-optimize'),
     p = require('./package.json');
 
 // cleanup
 gulp.task('clean', function () {
     return gulp.src('./templates/templates.js', {read: false})
-        .pipe(clean({force: true}));
+        .pipe(rimraf({force: true}));
 });
 
 // cleanup
 gulp.task('clean-build', function () {
     return gulp.src('./dist/' + p.name + '_' + p.version + '.min.js', {read: false})
-        .pipe(clean({force: true}));
+        .pipe(rimraf({force: true}));
 });
 
 // build the templates

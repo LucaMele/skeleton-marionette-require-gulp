@@ -6,17 +6,23 @@ This is a skaleton for a SPA app with requireJs, BackboneJs, MarionetteJs and JS
 
 _After have cloned the repo on your machine_
 
-First install all npm dependencies:
-
-`npm install`
-
-If you don't have already bower as a global node_module:
+First, if you don't have already bower as a global node_module:
 
 `npm install -g bower`
 
-Install all bower dependencies:
+After bower is installed, install all npm dependencies:
 
-`bower install`
+`npm install`
+
+This will install all npm modules and bower dependecies
+
+Now you can see the preview of the application by starting the server. The url address is gonna be http://localhiost:3000 (configured in server.js):
+
+`node server.js`
+
+Please don't use the server configuration for production. Is only for local testing!
+
+### On development ###
 
 Start everything with:
 
