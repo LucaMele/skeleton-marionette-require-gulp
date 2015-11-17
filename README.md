@@ -30,7 +30,7 @@ Start everything with:
 
 ##A quick build example of require##
 
-You can execute `gulp build` to have a minified and bundled version of the whole project. To test it, run the script from index-built.html
+You can execute `gulp build` to have a minified and bundled version of the whole project. To test it, run first `node server.js` and access to the demo HTML page by: localhost:3000/index-built.html
 
 
 ##References and good to know:##
